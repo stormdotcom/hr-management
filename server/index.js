@@ -5,6 +5,7 @@ import logger from 'morgan';
 import cors from 'cors'
 import employeeRouter from './routes/employee.js';
 import hrRouter from './routes/hr.js';
+import mongoose from "mongoose"
 
 const app = express();
 const CONNECTION_URL = "mongodb://localhost:27017/hr-management";
@@ -35,5 +36,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+mongoose.connect(CONNECTION_URL)
+.then(()=>{ console.log("DB Connected"); app.listen(port, ()=> console.log("server running on port " + port)) })
+.catch((err)=> console.log("Error connecting DB \n" + err.message))
 
-app.listen(port, ()=> console.log("server running on port " + port))
