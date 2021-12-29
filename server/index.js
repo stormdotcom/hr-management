@@ -5,6 +5,7 @@ import logger from 'morgan';
 import cors from 'cors'
 import employeeRouter from './routes/employee.js';
 import hrRouter from './routes/hr.js';
+import adminRouter from "./routes/admin.js"
 import mongoose from "mongoose"
 
 const app = express();
@@ -20,6 +21,7 @@ app.use(cookieParser());
 
 app.use('/', employeeRouter);
 app.use('/hr', hrRouter);
+app.use('/admin', adminRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -34,7 +36,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.json({ message: err.message});
 });
 mongoose.connect(CONNECTION_URL)
 .then(()=>{ console.log("DB Connected"); app.listen(port, ()=> console.log("server running on port " + port)) })

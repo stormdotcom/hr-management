@@ -1,0 +1,10 @@
+.selfService {
+    height: 100vh;
+    padding-top: 5%;   
+    padding-left: 15%;
+    overflow-y: scroll;
+}
+.selfServices {
+    padding-top:20% ;
+    padding-left: 10%;
+}

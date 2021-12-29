@@ -1,0 +1,40 @@
+.signin {
+    padding: auto;
+}
+.signin input[type="text"], input[type="password"] {
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #3f3f3f;
+    outline: none;
+}
+/* .signin input:focus {
+    outline: none !important;
+} */
+.form {
+    font-family: 'Roboto Mono', monospace;
+    width: 300px;
+    margin: 10vh auto;
+    padding: 3rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    border: 0.5px solid rgb(194, 194, 194);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.logoSec {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.logoSec h5 {
+    font-weight: 900;
+    color: #278acb
+}
+.error {
+    color: red;
+    font-size: small;
+}
