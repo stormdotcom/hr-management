@@ -3,6 +3,7 @@
     padding-top: 5%;   
     padding-left: 15%;
     overflow-y: scroll;
+
 }
 .SlipForm {
     background-color: #F5F5F5;
@@ -10,5 +11,6 @@
     margin-top: 4%;
     width: 50%;
     border-radius: 15px;
+
 
 }

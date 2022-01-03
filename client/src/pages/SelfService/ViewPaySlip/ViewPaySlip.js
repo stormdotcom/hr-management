@@ -1,13 +1,24 @@
-import React from 'react'
+import React, {useState} from 'react'
 import NavBar from '../../../components/NavBar/NavBar'
 import "./styles.css"
+import ViewSlip from './viewSlip'
+
 function ViewPaySlip() {
+  const [viewed, setViewed] = useState(false)
+  const handleView = ()=>{
+    setViewed((prev) => !prev)
+
+  }
+  const handleClose = (value)=> {
+    setViewed(value)
+}
     return (
         <>
         <div className='viewPay'>
+          {viewed ? <div  className="overflow-x-auto"> <ViewSlip handleClose={handleClose} /> </div> :
         <div className='separationStatus'>
-            <h5 className='mt-4 mb-2 text-center pt-4 font-semibold'>Seperation Status</h5>
-            <div class="flex flex-col">
+            <h5 className='mt-4 mb-2 text-center pt-4 font-semibold'>Payment Information</h5>
+     <div class="flex flex-col">
   <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
       <div class="overflow-hidden">
@@ -38,6 +49,7 @@ function ViewPaySlip() {
               <th scope="col" class="text-sm font-semibold text-gray-900 px-6 py-4 text-left">
               View / Download
               </th>
+              
             </tr>
           </thead>
           <tbody>
@@ -61,9 +73,10 @@ function ViewPaySlip() {
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                 70,000.00
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap flex justify-around">
-                  <button className='button-1'>View Slip </button>
-                  <button className='button-2'>Download Slip </button>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap flex justify-around border-none">
+                  <button className='button-1' onClick={handleView}>View Slip </button>
+                  <button className='button-2' >Download Slip </button>
+
               </td>
             </tr>
 {/*  */}
@@ -87,7 +100,7 @@ function ViewPaySlip() {
               <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                 70,000.00
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap flex justify-around">
+              <td class="text-sm text-gray-900 font-semibold px-6 py-4  flex justify-around border-none">
               <button className='button-1'>View Slip </button>
                   <button className='button-2'>Download Slip </button>
               </td>
@@ -99,7 +112,9 @@ function ViewPaySlip() {
     </div>
   </div>
 </div>
+
             </div>
+            }
                 <div className='SlipForm'>
 
                 </div>

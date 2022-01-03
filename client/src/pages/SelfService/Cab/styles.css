@@ -1,0 +1,16 @@
+.cabRequest {
+    padding: 2% 5%;
+}
+.mainForm {
+    border-radius: 15px;
+    border: 0.5px solid rgb(194, 194, 194);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.tableView {
+    border-radius: 15px;
+    border: 0.5px solid rgb(194, 194, 194);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.mainForm input, textarea {
+    background-color: #F5F5F5;
+}

@@ -1,0 +1,96 @@
+.button-groups {
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 50%;
+}
+@media only screen and (max-width: 1400) {
+    .button-groups {
+        width: 100%;
+        margin: auto;
+       display: flex;
+       flex-direction: column;
+
+    }
+  }
+  .button-5 {
+  background-color: #3B8FCC;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  padding: 7px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #2a77ad;
+}
+.tableView table {
+  border-radius: 15px;
+}
+.tableView th, td {
+  border: 1px solid #cacaca;
+}
+.tableView tr:hover {
+  background-color: #f8f8f8;
+}
+.button-sm-1 {
+  background-color: #3B8FCC;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-sm-1:hover,
+.button-sm-1:focus {
+  background-color: #2a77ad;
+}
+.button-sm-2 {
+  background-color: #FDBA22;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  padding: 2px 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-sm-2:hover,
+.button-sm-2:focus {
+  background-color: #e9ad21;
+}
