@@ -8,3 +8,5 @@
 ### Employee Login
 ![image](https://user-images.githubusercontent.com/84835379/150962481-d0318951-8783-42b2-858d-7944ec04a444.png)
 
+### Employee TimeSheet
+![image](https://user-images.githubusercontent.com/84835379/150962650-352b997f-e82d-41b1-9faa-ebe77b18785a.png)
