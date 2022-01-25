@@ -10,3 +10,10 @@
 
 ### Employee TimeSheet
 ![image](https://user-images.githubusercontent.com/84835379/150962650-352b997f-e82d-41b1-9faa-ebe77b18785a.png)
+
+### Employee Self Sercices
+![image](https://user-images.githubusercontent.com/84835379/150962749-39235b03-69aa-49c6-b3ed-211173aecd69.png)
+
+### Employee Performance insights
+![image](https://user-images.githubusercontent.com/84835379/150962887-40d7730d-5923-4378-8ee4-07fa07fa495d.png)
+
