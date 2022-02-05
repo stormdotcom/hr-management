@@ -2,7 +2,7 @@
 ## This is a showcase repo for this project, For the security reason orignal repo in private, For viewing whole project repo send me a mail to : ajmaln73@gmail.com
 
 - This is a  minimal version of Human Resources Management System (HRMS) Which is an integral part of ERP. The importance of employee management is crucial for any company. An HRMS increases employee engagement. Throughout this app Technical and facility related issues are  requested and resolved.
-This app dealing three types of User enities EMployee, HR, Web Admin[Supoort Team]
+This app dealing three types of User enities Employee, HR, Web Admin[Supoort Team]
 
 # HR 
 - This module is for create Employee and  process onboarding. This web app takes care of employee attendance, assets distribution, travel. App takes care of overall development of the employee through sharing development of resources, learning and performance management.
