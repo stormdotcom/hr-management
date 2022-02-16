@@ -1,7 +1,8 @@
 # HR Management System and Timesheet
 -- [Employee Portal](https://hr-stack.xyz)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c215a0b7-64ca-49d6-862b-3633c953dad9/deploy-status)](https://app.netlify.com/sites/hr-stack/deploys)
-
+-- [Management Portal](https://management.hr-stack.xyz)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33f2d74e-3878-4660-9c95-48a695b78a44/deploy-status)](https://app.netlify.com/sites/management-hr-stack/deploys)
 ## This is a showcase repo for this project, For the security reason orignal repo in private, For viewing whole project repo send me a mail to : ajmaln73@gmail.com
 
 - This is a  minimal version of Human Resources Management System (HRMS) Which is an integral part of ERP. The importance of employee management is crucial for any company. An HRMS increases employee engagement. Throughout this app Technical and facility related issues are  requested and resolved.
