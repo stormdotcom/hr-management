@@ -1,0 +1,19 @@
+.navbar {
+    margin-bottom: 1px;   
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    padding: 5px 0;
+    background-color: #ffffff;
+    color: #fff;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+
+@media only screen and (max-width: 970px) {
+    .navbarCol {
+        margin-left: auto;
+        background-color: blue;
+    }
+  }

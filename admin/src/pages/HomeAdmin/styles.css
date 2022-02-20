@@ -1,0 +1,115 @@
+.home {
+    height: 100vh;
+    padding-top: 5%;   
+    padding-left: 15%;
+    overflow-y: scroll;
+}
+.cardTopAdmin {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
+    margin-top:1%;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid #919191;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cardItem {
+    margin: 3% 5%;
+}
+.hrCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    margin-top:3%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #919191;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 200ms ease-in;
+}
+.hrCards:hover  {
+    translate: 2px ;
+    background-color: #f3f3f3;
+}
+.cardStarEmployees {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
+    margin-top:3%;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid #919191;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.homeCompanyEvents {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.homeEvent {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:3%;
+    background-color: #ffffff;
+    width: 45%;
+    border-radius: 15px;
+    border: 2px solid #919191;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .cardTopHR {
+      display: block;
+      width: 60%;
+      align-items: flex-start;
+    }
+    .cardItem {
+        align-items: flex-start;
+    }
+    .cardStarEmployees {
+        display: block;
+        width: 60%;
+    }
+    .starCard {
+        display: block;
+    }
+    .starCard img{
+        margin: auto;
+    }
+    .staricon svg{
+        margin:  auto;
+    }
+    .homeCompanyEvents {
+        display: block;
+        width: 100%;
+    }
+    .homeEvent {
+        width: 60%;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+    .cardTopHR {
+      display: block;
+      width: 80%;
+    }
+    .cardItem {
+        align-items: flex-start;
+    }
+
+  }

@@ -1,0 +1,9 @@
+.uploadEventImage {
+    background-color: #e4e4e4 !important;
+    transition: all 100ms ease-in-out;
+    
+}
+
+.uploadEventImage:hover {
+    background-color: #d4d3d3 !important;
+}

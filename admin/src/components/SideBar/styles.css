@@ -1,0 +1,116 @@
+.sideBarItem:hover {
+    background-color: #278acb;
+}
+.sideBarItem p {
+    margin-top: 15px;
+    color: #fff;
+}
+.iconGroup {
+    display: flex;
+    justify-content: center;
+}
+.logoSection {
+    margin: 0.1px auto;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.logoTopSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms ease-in-out;
+}
+.logoTopSec h5 {
+    font-weight: 900;
+    color: #278acb
+}
+.logo {
+    color:#278acb;
+    font-size: medium;
+    font-weight: 900;
+    transition: all 100ms ease-in-out;
+}
+.logoImage {
+    fill: #278acb;
+    margin-bottom: 2%;
+}
+#header {
+    margin-right: 100px;
+    position: absolute;
+    top:0;
+    width: 220px;
+  }
+  #header .pro-sidebar {
+    height: 100vh;
+  }
+  #header .closemenu {
+    color: #4b4848;
+    position: absolute;
+    right: 5px;
+    z-index: 9999;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+    top: 40px;
+    cursor: pointer;
+  }
+  #header .pro-sidebar {
+    width: 100%;
+    min-width: 100%;
+  }
+  #header .pro-sidebar.collapsed {
+    width: 80px;
+    min-width: 80px;
+  }
+  #header .pro-sidebar-inner {
+    background-color: white;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout {
+    overflow-y: hidden;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .logotext  {
+    font-size: 20px;
+    padding: 0 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px;
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    background-color: #278acb;
+    margin: 1px 0px;
+    font-weight: bold;
+  }
+  .pro-inner-item:hover, .pro-inner-item:hover span{
+    background-color: #FDBA22 !important;
+  }
+
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color: #278acb;
+    height:20px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+  }
+
+  
+  #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+   
+    color: rgb(255, 255, 255);
+  }
+  #header .pro-sidebar-inner .pro-sidebar-layout .active {
+    background-image: #FDBA22
+  }
+  #header .logo {
+    padding: 20px;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    html {
+      overflow: hidden;
+    }
+  }

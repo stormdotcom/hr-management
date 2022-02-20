@@ -1,0 +1,30 @@
+.separation {
+    height: 100vh;
+    padding-top: 5%;   
+    padding-left: 15%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.separationForm {
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 4%;
+    width: 90%;
+    border-radius: 15px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.separationStatus {
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 4%;
+    width: 90%;
+    border-radius: 15px;
+    margin-bottom: 7%;
+}
