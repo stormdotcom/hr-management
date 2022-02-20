@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+  overflow: hidden;
+}
+.button-1 {
+    margin: auto;
+  background-color: #3B8FCC;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #2a77ad;
+}
+
+.button-2 {
+  margin: auto;
+background-color: #FDBA22;
+border-radius: 8px;
+border-style: none;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+font-weight: 500;
+height: 40px;
+line-height: 20px;
+list-style: none;
+margin: 0;
+outline: none;
+padding: 10px 16px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: color 100ms;
+vertical-align: baseline;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-2:hover,
+.button-2:focus {
+background-color: #e9ad21;
+}
+
+
+.button-4 {
+  width: 40%;
+  margin: 2px;
+background-color: #F8F8F8;
+border-radius: 8px;
+color: black;
+cursor: pointer;
+display: inline-block;
+padding: 42px 45px;
+text-align: center;
+text-decoration: none;
+transition: color 100ms;
+touch-action: manipulation;
+}
+
+.button-4:hover,
+.button-4:focus {
+background-color: #e9e7e7;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    display: none;
+  }
+}

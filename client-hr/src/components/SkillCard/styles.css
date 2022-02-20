@@ -1,0 +1,13 @@
+.skillCard {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fdfeff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    min-width: 300px;
+    margin: 20px 10px;
+    transition: all 100ms ease-in-out;
+}
+.skillCard:hover {
+    background-color: #f8fcff;
+    translate: 1px 1px;
+}

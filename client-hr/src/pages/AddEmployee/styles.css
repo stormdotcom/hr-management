@@ -1,0 +1,9 @@
+
+.addEmployee input[type="password"]
+{
+  -webkit-text-security: disc;
+  padding: 3px 5px;
+  letter-spacing: 1px;
+  width: 50%;
+  height: 2%;
+}
