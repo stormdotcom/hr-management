@@ -1,5 +1,6 @@
 import React from 'react'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import Clock from 'react-live-clock';
 function DateToday() {
     const locale = 'en';
     const [today, setDate] = React.useState(new Date()); // Save the current date to be able to trigger an update
@@ -17,13 +18,12 @@ function DateToday() {
     const day = today.toLocaleDateString(locale, { weekday: 'long' });
     const date = `${day}, ${today.getDate()} ${today.toLocaleDateString(locale, { month: 'long' })}\n\n`;
   
-    const hour = today.getHours();
-    const wish = `Good ${(hour < 12 && 'Morning') || (hour < 17 && 'Afternoon') || 'Evening'}, `;
-  
-    const time = today.toLocaleTimeString(locale, { hour: 'numeric', hour12: true, minute: 'numeric' });
-  
     return (
-        <p> {date}  <AccessTimeIcon />  {time}  </p>
+      <div className='mr-5 pr-3'>        
+         <p className='lg:mt-2'> {date}  <AccessTimeIcon />  &nbsp;
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={'IST/Asia'} />  </p> 
+      </div>
+
     )
 }
 
