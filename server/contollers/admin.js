@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 import bcrypt from "bcrypt"
 import User from "../models/User.js"
-export const createUser = (async(req, res)=>{
+export const HBHJBSJA = (async(req, res)=>{
     console.log(req.body)
     const {email, password, fullname} = req.body
     try {
