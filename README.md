@@ -3,15 +3,21 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c215a0b7-64ca-49d6-862b-3633c953dad9/deploy-status)](https://app.netlify.com/sites/hr-stack/deploys)
 
 sample employee credentials
+
 -- username:ajmaln73@gmail.com
+
 -- password: password
 
 
 -- [Management Portal](https://management.hr-stack.xyz) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/33f2d74e-3878-4660-9c95-48a695b78a44/deploy-status)](https://app.netlify.com/sites/management-hr-stack/deploys)  (Desktop Version only)
+
 HR credentials
+
 -- username:ajmaln73@gmail.com
+
 -- password: password
+
 --[Admin Portal](https://admin.hr-stack.xyz) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3709b5ce-41cf-439d-901a-2bece9aac00a/deploy-status)](https://app.netlify.com/sites/admin-hr-stack/deploys) (Desktop Version only)
 
