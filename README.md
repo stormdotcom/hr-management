@@ -2,6 +2,8 @@
 :purple_square: [Employee Portal](https://hr-stack.xyz)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c215a0b7-64ca-49d6-862b-3633c953dad9/deploy-status)](https://app.netlify.com/sites/hr-stack/deploys)
 
+## The backend server is turned off because huge amount billing
+
 :yellow_circle: Employee credentials
 
 username:ajmaln73@gmail.com
